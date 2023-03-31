@@ -1,0 +1,14 @@
+.cart-btn {
+  cursor: pointer;
+}
+.cart-btn span:nth-child(1) {
+  position: absolute;
+}
+.cart-btn span:nth-child(2) {
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+}
+.fa-regular {
+  color: var(--color-primary);
+}

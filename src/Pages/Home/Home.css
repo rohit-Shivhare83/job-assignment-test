@@ -1,0 +1,35 @@
+.right-section-list {
+  /* background-color: #f6fbff !important; */
+
+  height: 100vh !important;
+}
+.logo-head {
+  /* height: 100%; */
+  /* font-size: 5rem; */
+}
+.left-btn {
+  width: 100% !important;
+}
+.left-section {
+  width: 100%;
+}
+.left-section-filter-sort {
+  height: 100vh;
+  background-color: #f6fbff !important;
+}
+.header-color {
+  background: #f6fbff;
+}
+@media screen and (max-width: 768px) {
+  .left-section-filter-sort {
+    height: 100% !important;
+  }
+  .header-color {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-color {
+    padding: 0 1rem !important;
+  }
+}
