@@ -133,10 +133,10 @@ const Home = () => {
               <div className=" d-flex flex-wrap flex-lg-column flex-sm-row justify-content-start align-items-center fs-5 left-btn w-100">
                 <p className="m-1 p-2 px-2 fw-semibold">Apply Your Filters</p>
                 <div className="w-sm-100 w-lg-100 w-md-100 ">
-                  <Filter items={items} setCategory={setCategory} />
+                  <Sort sortBy={handleSorting} />
                 </div>
                 <div className="w-sm-100 w-lg-60 w-md-100 ">
-                  <Sort sortBy={handleSorting} />
+                  <Filter items={items} setCategory={setCategory} />
                 </div>
               </div>
             </div>

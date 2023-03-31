@@ -3,6 +3,7 @@ import React from "react";
 const Filter = ({ items, setCategory }) => {
   return (
     <div className="d-flex flex-lg-column flex-sm-row flex-wrap left-btn">
+      <hr />
       <button
         className="btn btn-primary m-1 p-2 px-2"
         onClick={() => setCategory("")}
@@ -33,7 +34,6 @@ const Filter = ({ items, setCategory }) => {
       >
         Womens Clothing
       </button>
-      <hr />
     </div>
   );
 };
